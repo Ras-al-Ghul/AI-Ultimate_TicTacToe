@@ -24,17 +24,17 @@ A valid move needs to be returned from the `move` function within `12 seconds`. 
 ####To Play
 - `python evaluator_code.py <option>`  
 where `<option>` is one of the following integers:
-1. Random player vs AI - Random starts first
-2. Human vs. AI
-3. Human vs. Human
-4. AI vs. Random player - AI starts first
-5. AI vs NaiveAI - AI moves first
-6. NaiveAI vs AI - NaiveAI moves first
-7. AI1 vs AI2 - AI1 moves first
-8. AI vs OldAI - OldAI moves first
-9. AI vs OldAI - AI moves first
-10. 27 vs 64 - 64 moves first
-11. 27 vs 64 - 27 moves first
+ 1. Random player vs AI - Random starts first
+ 2. Human vs. AI
+ 3. Human vs. Human
+ 4. AI vs. Random player - AI starts first
+ 5. AI vs NaiveAI - AI moves first
+ 6. NaiveAI vs AI - NaiveAI moves first
+ 7. AI1 vs AI2 - AI1 moves first
+ 8. AI vs OldAI - OldAI moves first
+ 9. AI vs OldAI - AI moves first
+ 10. 27 vs 64 - 64 moves first
+ 11. 27 vs 64 - 27 moves first
 
 ####Code Highlights
 - The code has been written in `Python` and is well documented.
