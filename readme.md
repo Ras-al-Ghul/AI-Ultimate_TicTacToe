@@ -23,18 +23,18 @@ A valid move needs to be returned from the `move` function within `12 seconds`. 
 
 ####To Play
 - `python evaluator_code.py <option>`  
-where <option> can be:  
-		1 => Random player vs AI - Random starts first
-                2 => Human vs. AI
-                3 => Human vs. Human
-                4 => AI vs. Random player - AI starts first
-                5 => AI vs NaiveAI - AI moves first
-                6 => NaiveAI vs AI - NaiveAI moves first
-                7 => AI1 vs AI2 - AI1 moves first
-                8 => AI vs OldAI - OldAI moves first
-                9 => AI vs OldAI - AI moves first
-                10 => 27 vs 64 - 64 moves first
-                11 => 27 vs 64 - 27 moves first
+where `<option>` is one of the following integers:  
+1. Random player vs AI - Random starts first  
+2. Human vs. AI
+3. Human vs. Human
+4. AI vs. Random player - AI starts first
+5. AI vs NaiveAI - AI moves first
+6. NaiveAI vs AI - NaiveAI moves first
+7. AI1 vs AI2 - AI1 moves first
+8. AI vs OldAI - OldAI moves first
+9. AI vs OldAI - AI moves first
+10. 27 vs 64 - 64 moves first
+11. 27 vs 64 - 27 moves first
 
 ####Code Highlights
 - The code has been written in `Python` and is well documented.
@@ -43,6 +43,7 @@ where <option> can be:
 - There is no specific `Alpha-Beta Search Depth`. The full 12 seconds is utilized. This is possible becuase of an `Iterative Deepening Search` implementation.
 - As a first step, all valid moves are generated and then `MIN` is called from the `move` function. `MIN` and `MAX` call each other interchangeabley until a `Terminal State` is reached. On reaching a terminal state, the board position is evaluated and scored according to various `heuristics` in `__eval_state`, `__evaluate_Mini_Board` and `score_big_board` functions.
 - For various `heuristics` and `optimization` snippets, please read the well-documented code. It really is very interesting and we've worked really hard on implementing those rather smart heuristics.
+- Our AI is contained in the file `Team27.py`. Various other AI's used during testing have also been provided.
 
 
 
