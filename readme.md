@@ -43,7 +43,7 @@ where `<option>` is one of the following integers:
 - There is no specific `Alpha-Beta Search Depth`. The full 12 seconds is utilized. This is possible becuase of an `Iterative Deepening Search` implementation.
 - As a first step, all valid moves are generated and then `MIN` is called from the `move` function. `MIN` and `MAX` call each other interchangeabley until a `Terminal State` is reached. On reaching a terminal state, the board position is evaluated and scored according to various `heuristics` in `__eval_state`, `__evaluate_Mini_Board` and `score_big_board` functions.
 - For various `heuristics` and `optimization` snippets, please read the well-documented code. It really is very interesting and we've worked really hard on implementing those rather smart heuristics.
-- Our AI is contained in the file `Team27.py`. Various other AI's used during testing have also been provided.
+- Our AI is contained in the file `team27.py`. Various other AI's used during testing have also been provided.
 
 
 
